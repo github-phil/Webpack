@@ -1,0 +1,6 @@
+webpack.config.js   放到了build下  取出来 运行 webpack-dev-server --hot --inline  /   npm run dev
+
+将webpack.config.js原配置拆开 
+      用node起的一个服务 端口3333   运行 node dev-server.js    这个文件 访问localhost:3333
+      dev-client.js   热加载自动监测页面实时更新
+     
